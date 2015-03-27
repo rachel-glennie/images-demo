@@ -12,13 +12,17 @@ body {
 }
 
 .masthead {
-background-image: url("../images/logo.svg");
-background-size: 75px auto;
-padding: 6em;
-background-repeat: no-repeat;
-background-position: center 25px;
-text-align: center;
-color: #3b3a33;
+	background-image: url("../images/logo.svg"), url("../images/masthead-bg.png");
+	background-size: 75px auto, 200px 100px;
+	background-repeat: no-repeat, repeat;
+	background-position: center 25px, left top;
+	text-align: center, center;
+}
+
+h1 {
+	text-align: center;
+	padding: 2em;
+	margin: 0em;
 }
 
 img {
