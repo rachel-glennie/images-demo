@@ -13,3 +13,18 @@ img {
 body {
 	font-family: 'Georgia', serif;
 }
+
+.masthead {
+background-image: url("../images/logo.svg");
+background-size: 75px auto;
+padding: 6em;
+background-repeat: no-repeat;
+background-position: center 25px;
+text-align: center;
+color: #3B3A33;
+}
+
+img {
+	width: 100%;
+	margin: 0em;
+}
