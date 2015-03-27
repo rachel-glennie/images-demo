@@ -6,12 +6,9 @@ html {
 	box-sizing: inherit;
 }
 
-img {
-	width:100%;
-}
-
 body {
 	font-family: 'Georgia', serif;
+	margin: 0em;
 }
 
 .masthead {
@@ -27,4 +24,6 @@ color: #3B3A33;
 img {
 	width: 100%;
 	margin: 0em;
+	padding: 0em;
+	text-align: center;
 }
